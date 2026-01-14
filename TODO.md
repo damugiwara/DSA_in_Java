@@ -1,4 +1,4 @@
-### Todo
+### TODO:
 
 - [x] Singly Linked List
 - [x] Stack Using Linked List
