@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-class ArrayDSA {
+class arrays {
 
     int[] arr;
     int size;
     int capacity;
 
-    ArrayDSA(int capacity) {
+    arrays(int capacity) {
         this.capacity = capacity;
         this.size = 0;
         arr = new int[capacity];
@@ -103,7 +103,7 @@ class ArrayDSA {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter array size: ");
-        ArrayDSA array = new ArrayDSA(sc.nextInt());
+        arrays array = new arrays(sc.nextInt());
 
         int choice;
 
